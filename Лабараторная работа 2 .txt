@@ -1,0 +1,25 @@
+def praktika1(a , b , operation):
+    if operation == "вычитание":
+        return a - b
+    elif operation == "сложение":
+        return a + b
+    elif operation == "умножение":
+        return a * b
+    elif operation == "возведение в степень":
+        return a ** b
+    elif operation == "деление":
+        return a / b
+    elif operation == "целочисленное деление":
+        return a // b
+    elif operation == "остаток от деление":
+        return a % b
+a = 4
+b = 2
+
+print(praktika1(a , b , "вычитание"))
+print(praktika1(a , b , "сложение"))
+print(praktika1(a , b , "умножение"))
+print(praktika1(a , b , "возведение в степень"))
+print(praktika1(a , b , "деление"))
+print(praktika1(a , b , "целочисленное деление"))
+print(praktika1(a , b , "остаток от деления"))
