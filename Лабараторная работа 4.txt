@@ -1,0 +1,10 @@
+# Пример цикла for
+for i in range(6 , -1 , -1):
+    print("Итерация:", i)
+
+# цикл while
+count = 1
+while count < 6:
+    print("Счетчик:",count)
+    count += 1
+    # увеличивет счечткик на 1
